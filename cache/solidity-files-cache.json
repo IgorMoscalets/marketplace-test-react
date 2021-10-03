@@ -1,0 +1,471 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "E:\\marketplace-test\\react-app-nbc\\not-boring-company-test\\marketplace-test-react\\contracts\\Greeter.sol": {
+      "lastModificationDate": 1633215924984,
+      "contentHash": "a5aa321ea0198ccb6e03cdcc3e8baeda",
+      "sourceName": "contracts/Greeter.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "hardhat/console.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.4"
+      ],
+      "artifacts": [
+        "Greeter"
+      ]
+    },
+    "E:\\marketplace-test\\react-app-nbc\\not-boring-company-test\\marketplace-test-react\\node_modules\\hardhat\\console.sol": {
+      "lastModificationDate": 1631995513513,
+      "contentHash": "cc4777addd464ea56fa35b1c45df0591",
+      "sourceName": "hardhat/console.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.4.22 <0.9.0"
+      ],
+      "artifacts": [
+        "console"
+      ]
+    },
+    "E:\\marketplace-test\\react-app-nbc\\not-boring-company-test\\marketplace-test-react\\contracts\\TestContract.sol": {
+      "lastModificationDate": 1633215924987,
+      "contentHash": "448077a5cc416a9dc4c95f0ed22caf3d",
+      "sourceName": "contracts/TestContract.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "hardhat/console.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.4"
+      ],
+      "artifacts": [
+        "TestContract"
+      ]
+    },
+    "E:\\marketplace-test\\react-app-nbc\\not-boring-company-test\\marketplace-test-react\\contracts\\AccessControl.sol": {
+      "lastModificationDate": 1633215924973,
+      "contentHash": "bdcc154545e1dc8aee6afa1c9df5ecb0",
+      "sourceName": "contracts/AccessControl.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./Context.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.4"
+      ],
+      "artifacts": [
+        "AccessControl"
+      ]
+    },
+    "E:\\marketplace-test\\react-app-nbc\\not-boring-company-test\\marketplace-test-react\\contracts\\Context.sol": {
+      "lastModificationDate": 1633215924983,
+      "contentHash": "6ce9a93e66698bf45e22557026f8d53c",
+      "sourceName": "contracts/Context.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.4"
+      ],
+      "artifacts": [
+        "Context"
+      ]
+    },
+    "E:\\marketplace-test\\react-app-nbc\\not-boring-company-test\\marketplace-test-react\\contracts\\NBCoin.sol": {
+      "lastModificationDate": 1633215924986,
+      "contentHash": "bf4f0971d4904377d06702e63ebe0ef2",
+      "sourceName": "contracts/NBCoin.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./BEP20.sol",
+        "./AccessControl.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.4"
+      ],
+      "artifacts": [
+        "NBCoin"
+      ]
+    },
+    "E:\\marketplace-test\\react-app-nbc\\not-boring-company-test\\marketplace-test-react\\contracts\\BEP20.sol": {
+      "lastModificationDate": 1633215924982,
+      "contentHash": "ffef2d4f3177cd7601d0519a024031a0",
+      "sourceName": "contracts/BEP20.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./IBEP20.sol",
+        "./IBEP20Metadata.sol",
+        "./Context.sol",
+        "./Address.sol",
+        "./Pausable.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.4"
+      ],
+      "artifacts": [
+        "BEP20"
+      ]
+    },
+    "E:\\marketplace-test\\react-app-nbc\\not-boring-company-test\\marketplace-test-react\\contracts\\IBEP20.sol": {
+      "lastModificationDate": 1633215924985,
+      "contentHash": "9d9ca8ed042a1369099d3c30bab517cb",
+      "sourceName": "contracts/IBEP20.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.4"
+      ],
+      "artifacts": [
+        "IBEP20"
+      ]
+    },
+    "E:\\marketplace-test\\react-app-nbc\\not-boring-company-test\\marketplace-test-react\\contracts\\IBEP20Metadata.sol": {
+      "lastModificationDate": 1633215924985,
+      "contentHash": "7e85cc9217a77328fee8cacadafcbc36",
+      "sourceName": "contracts/IBEP20Metadata.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./IBEP20.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.4"
+      ],
+      "artifacts": [
+        "IBEP20Metadata"
+      ]
+    },
+    "E:\\marketplace-test\\react-app-nbc\\not-boring-company-test\\marketplace-test-react\\contracts\\Address.sol": {
+      "lastModificationDate": 1633215924976,
+      "contentHash": "d0595f6eeebab6d55dd86e1993fbb91f",
+      "sourceName": "contracts/Address.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.4"
+      ],
+      "artifacts": [
+        "Address"
+      ]
+    },
+    "E:\\marketplace-test\\react-app-nbc\\not-boring-company-test\\marketplace-test-react\\contracts\\Pausable.sol": {
+      "lastModificationDate": 1633215924986,
+      "contentHash": "ae930f351295e7df8821e73b08af51db",
+      "sourceName": "contracts/Pausable.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./Context.sol",
+        "./AccessControl.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.4"
+      ],
+      "artifacts": [
+        "Pausable"
+      ]
+    },
+    "E:\\marketplace-test\\react-app-nbc\\not-boring-company-test\\marketplace-test-react\\contracts\\Token.sol": {
+      "lastModificationDate": 1633215924987,
+      "contentHash": "7abb5fed631d98fbacbc02510d7c0146",
+      "sourceName": "contracts/Token.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "hardhat/console.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.4"
+      ],
+      "artifacts": [
+        "Token"
+      ]
+    },
+    "E:\\marketplace-test\\react-app-nbc\\not-boring-company-test\\marketplace-test-react\\contracts\\TestToken.sol": {
+      "lastModificationDate": 1633215924987,
+      "contentHash": "2cb89963607e3da0188dd0eab1c97fe6",
+      "sourceName": "contracts/TestToken.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "hardhat/console.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.4"
+      ],
+      "artifacts": [
+        "TestToken"
+      ]
+    }
+  }
+}
